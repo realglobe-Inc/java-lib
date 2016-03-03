@@ -42,6 +42,7 @@ public class Pair<T1, T2> {
         int result = 1;
         result = prime * result + ((this.first == null) ? 0 : this.first.hashCode());
         result = prime * result + ((this.second == null) ? 0 : this.second.hashCode());
+        result = prime * result + getClass().getName().hashCode();
         return result;
     }
 
@@ -51,7 +52,7 @@ public class Pair<T1, T2> {
             return true;
         } else if (obj == null) {
             return false;
-        } else if (!(obj instanceof Pair)) {
+        } else if (getClass() != obj.getClass()) {
             return false;
         }
         final Pair<?, ?> other = (Pair<?, ?>) obj;

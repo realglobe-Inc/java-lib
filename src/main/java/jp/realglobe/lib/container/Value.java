@@ -29,6 +29,7 @@ public class Value<T> {
         final int prime = 31;
         int result = 1;
         result = prime * result + ((this.value == null) ? 0 : this.value.hashCode());
+        result = prime * result + getClass().getName().hashCode();
         return result;
     }
 
@@ -38,7 +39,7 @@ public class Value<T> {
             return true;
         } else if (obj == null) {
             return false;
-        } else if (!(obj instanceof Value)) {
+        } else if (getClass() != obj.getClass()) {
             return false;
         }
         final Value<?> other = (Value<?>) obj;
