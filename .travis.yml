@@ -5,3 +5,9 @@ cache:
   directories:
     - .autoconf
     - $HOME/.m2
+deploy:
+  provider: script
+  script: ./.travis-deploy.sh
+  skip_cleanup: true
+  on:
+    branch: master
