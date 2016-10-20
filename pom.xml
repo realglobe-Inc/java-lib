@@ -6,7 +6,7 @@
   <groupId>jp.realglobe.lib</groupId>
   <artifactId>realglobe-lib</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <name>realglobe java library</name>
 
   <properties>
@@ -89,11 +89,6 @@
       <name>libs-release-local</name>
       <url>${env.CI_REPOSITORY}/libs-release-local</url>
     </repository>
-    <snapshotRepository>
-      <id>ci-snapshots</id>
-      <name>libs-snapshot-local</name>
-      <url>${env.CI_REPOSITORY}/libs-snapshot-local</url>
-    </snapshotRepository>
   </distributionManagement>
 
 </project>
