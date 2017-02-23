@@ -7,7 +7,32 @@
   <artifactId>rg-lib</artifactId>
   <packaging>jar</packaging>
   <version>1.0.2</version>
-  <name>realglobe java library</name>
+
+  <name>Realglobe Java library</name>
+  <description>Realglobe's miscellaneous Java libraries</description>
+  <url>https://github.com/realglobe-Inc/java-lib</url>
+
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>Daisuke Fukuchi</name>
+      <email>fukuchidaisuke@realglobe.jp</email>
+      <organization>realglobe Inc.</organization>
+      <organizationUrl>http://realglobe.jp/</organizationUrl>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:git://github.com/realglobe-Inc/java-lib.git</connection>
+    <developerConnection>scm:git:ssh://github.com:realglobe-Inc/java-lib.git</developerConnection>
+    <url>https://github.com/realglobe-Inc/java-lib/tree/master</url>
+  </scm>
 
   <properties>
     <java.version>1.8</java.version>
