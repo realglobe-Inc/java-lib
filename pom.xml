@@ -47,7 +47,7 @@
   <scm>
     <connection>scm:git:git://github.com/realglobe-Inc/java-lib.git</connection>
     <developerConnection>scm:git:ssh://github.com:realglobe-Inc/java-lib.git</developerConnection>
-    <url>https://github.com/realglobe-Inc/java-lib/tree/master</url>
+    <url>https://github.com/realglobe-Inc/java-lib</url>
   </scm>
 
   <properties>
