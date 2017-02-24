@@ -24,7 +24,7 @@
   <packaging>jar</packaging>
   <version>1.0.2</version>
 
-  <name>Realglobe Java library</name>
+  <name>Realglobe Java Library</name>
   <description>Realglobe's miscellaneous Java libraries</description>
   <url>https://github.com/realglobe-Inc/java-lib</url>
 
@@ -47,7 +47,7 @@
   <scm>
     <connection>scm:git:git://github.com/realglobe-Inc/java-lib.git</connection>
     <developerConnection>scm:git:ssh://github.com:realglobe-Inc/java-lib.git</developerConnection>
-    <url>https://github.com/realglobe-Inc/java-lib/tree/master</url>
+    <url>https://github.com/realglobe-Inc/java-lib</url>
   </scm>
 
   <properties>
