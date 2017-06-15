@@ -5,7 +5,7 @@ Java 用の細々としたライブラリ。
 
 ## JavaDoc
 
-https://realglobe-inc.github.io/javadoc/jp/realglobe/java-lib
+https://realglobe-inc.github.io/javadoc/jp/realglobe/rg-lib
 
 
 ## License
