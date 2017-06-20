@@ -63,4 +63,15 @@ public class DatesTest {
         Assert.assertEquals("1970-01-02", Dates.getSimpleDayString(new Date(-this.timeDiff + 24 * 3600 * 1000L)));
     }
 
+    /**
+     * 時刻のテスト
+     */
+    @Test
+    public void testGetSimpleTimeString() {
+        Assert.assertEquals("23:59:59", Dates.getSimpleTimeString(new Date(-this.timeDiff - 1)));
+        Assert.assertEquals("00:00:00", Dates.getSimpleTimeString(new Date(-this.timeDiff)));
+        Assert.assertEquals("00:00:00", Dates.getSimpleTimeString(new Date(-this.timeDiff + 1000L - 1)));
+        Assert.assertEquals("00:00:01", Dates.getSimpleTimeString(new Date(-this.timeDiff + 1000L)));
+    }
+
 }
