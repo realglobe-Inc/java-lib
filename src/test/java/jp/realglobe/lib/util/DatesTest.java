@@ -57,10 +57,10 @@ public class DatesTest {
      */
     @Test
     public void testGetSimpleTodayString() {
-        Assert.assertNotEquals("1970-01-01", Dates.getSimpleDayString(new Date(-this.timeDiff - 1)));
+        Assert.assertEquals("1969-12-31", Dates.getSimpleDayString(new Date(-this.timeDiff - 1)));
         Assert.assertEquals("1970-01-01", Dates.getSimpleDayString(new Date(-this.timeDiff)));
         Assert.assertEquals("1970-01-01", Dates.getSimpleDayString(new Date(-this.timeDiff + 24 * 3600 * 1000L - 1)));
-        Assert.assertNotEquals("1970-01-01", Dates.getSimpleDayString(new Date(-this.timeDiff + 24 * 3600 * 1000L)));
+        Assert.assertEquals("1970-01-02", Dates.getSimpleDayString(new Date(-this.timeDiff + 24 * 3600 * 1000L)));
     }
 
 }
