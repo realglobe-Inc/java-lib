@@ -42,4 +42,12 @@ public final class Dates {
         return (new SimpleDateFormat("yyyy-MM-dd", Locale.US)).format(date);
     }
 
+    /**
+     * @param date 日時
+     * @return HH:mm:ss 形式の日時表記
+     */
+    public static String getSimpleTimeString(final Date date) {
+        return (new SimpleDateFormat("HH:mm:ss", Locale.US)).format(date);
+    }
+
 }
