@@ -26,6 +26,8 @@ import java.util.Locale;
  */
 public final class Dates {
 
+    private Dates() {}
+
     /**
      * @param date 日時
      * @return RFC3339 形式の日時表記
